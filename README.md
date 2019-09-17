@@ -1,2 +1,5 @@
 # server-config
-Configuration Server
+mvn spring-boot:run
+http://localhost:8888/actuator/health
+
+
