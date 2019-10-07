@@ -11,15 +11,4 @@ spring:
       password: 1234 #the password which apps will use to access its configurations
 server:
   port: 8888 #the port where the config-server will be acessible
-eureka:
-  instance:
-    prefer-ip-address: false
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
 
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://localhost:8080/uaa/user/current
-      token-info-uri: http://localhost:8080/uaa/oauth/check_token
